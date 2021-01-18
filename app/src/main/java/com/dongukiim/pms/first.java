@@ -1,4 +1,4 @@
-package com.eomcs.pms;
+package com.dongukiim.pms;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
    셋째, 전반적으로 보완할 점에 대해 의견을 나누고 피드백해주시면 많은 공부가 될 것 같습니다. 감사합니다!
  */
 
-public class App5 {
+public class first {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
