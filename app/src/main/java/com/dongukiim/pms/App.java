@@ -29,7 +29,7 @@ public class App {
         System.out.println();
 
       } else if (input.equals("발매처")) {
-        System.out.println("1.Europe 2.Asia 3.America");
+        System.out.println("1.유럽 2.아시아 3.아메리카");
         String region = Prompt.promptString("숫자를 제외하고 입력하세요: ");
         System.out.println();
 

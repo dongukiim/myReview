@@ -5,7 +5,7 @@ import com.dongukiim.util.Prompt;
 
 public class ListHandler {
 
-  class List {
+  static class List {
     String brand;
     String name;
     Date startDate;
@@ -18,7 +18,7 @@ public class ListHandler {
   static final int LENGTH = 20;
   static int count = 0;
 
-  static ListHandler[] lists = new ListHandler[LENGTH];
+  static List[] lists = new List[LENGTH];
 
   static String[] brand = new String[LENGTH];
   static String[] name = new String[LENGTH];
@@ -29,9 +29,9 @@ public class ListHandler {
   static String[] worldWide = new String[LENGTH];
 
 
-  static void Add() {
+  public static void Add() {
 
-    ListHandler l = new ListHandler();
+    List l = new List();
 
     System.out.println("[정보등록]");
 
